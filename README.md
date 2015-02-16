@@ -29,7 +29,7 @@ The jenkins-data-volume container need not be running at all times.
 
 Run the jenkins container with data volume you started earlier
 
-       	docker run -d -p 8080:8080 --privileged --volumes-from jenkins-data mkulkarni/jenkins-with-docker
+	docker run -d -p 8080:8080 --privileged --volumes-from jenkins-data mkulkarni/jenkins-with-docker
 
 ### Mount host directory as the Data Volume 
 
